@@ -1,0 +1,13 @@
+{
+  "events": {
+    "restart": ""
+  },
+  "ignore": [
+    ".git",
+    "node_modules/**",
+    "front"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}

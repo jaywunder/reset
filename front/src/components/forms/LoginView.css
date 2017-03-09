@@ -1,0 +1,13 @@
+.LoginFormWrapper {
+  padding-top: 15%;
+}
+
+.LoginFormWrapper .LoginForm {
+  /*max-width: 300px;*/
+}
+.LoginFormWrapper .LoginFormForgot {
+
+}
+.LoginFormWrapper .SubmitButton {
+  width: 100%;
+}

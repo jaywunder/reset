@@ -1,0 +1,65 @@
+.HomeViewWrapper {
+  max-width: 100%;
+}
+
+.Jumbotron {
+  background: lightgrey;
+}
+
+.Jumbotron h1 {
+  font-size: 4em;
+}
+
+.Jumbotron h2 {
+  font-size: 2em;
+}
+
+.Introduction {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+@media only screen and (min-device-width: 481px) {
+
+  .Jumbotron {
+    padding: 6em;
+    width: 100%;
+  }
+
+  .IntroductionWrapper {
+    padding: 3em;
+    float: left;
+    width: 70%;
+  }
+
+  .LoginWrapper {
+    width: 30%;
+    float: right;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+}
+
+@media only screen and (max-device-width: 480px) {
+  .Jumbotron {
+    max-width: 100%;
+    padding: 6em;
+  }
+
+  .IntroductionWrapper {
+    padding: 1em;
+  }
+  .Introduction {
+    text-align: center;
+  }
+
+  .LoginWrapper {
+    float: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
